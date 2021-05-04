@@ -13,6 +13,7 @@ coverage.json
 
 hardhat.config.ts
 truffle-config.js
+tenderly.yaml
 
 *.log
 !deployments/*.log
