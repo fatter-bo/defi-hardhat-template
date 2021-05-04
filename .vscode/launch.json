@@ -1,0 +1,34 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch StudyDelegate",
+            "request": "launch",
+            "runtimeArgs": [
+                "hardhat",
+                "run",
+                "scripts/StudyDelegate.ts",
+                "--network",
+                "hardhat"
+            ],
+            "runtimeExecutable": "npx",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "skipFiles": "<node_internals>/**",
+            "runtimeExecutable": "/Users/fatter/.nvm/versions/node/v16.0.0/bin/npx",
+            "args": ["hardhat","run","script/deploy.ts","--network","hardhat"],
+            "name": "Debug Ts"
+        },
+        {
+        }
+    ]
+}
